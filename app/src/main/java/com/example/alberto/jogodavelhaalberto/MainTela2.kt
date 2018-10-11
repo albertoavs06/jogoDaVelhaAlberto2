@@ -28,7 +28,7 @@ class MainTela2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_tela2)
         val argumentos:Bundle=intent.extras
-
+        view=tela01
         val jogador1:String=argumentos.getString("jogador1")
         val jogador2:String=argumentos.getString("jogador2")
 
@@ -106,7 +106,7 @@ class MainTela2 : AppCompatActivity() {
 
     fun getQuadrado(tagNum: Int): Button? {
         // retorna o respectivo quadrado requerido pela variavel tagNum
-        return view!!.findViewWithTag<View>(QUADRADO + tagNum) as Button
+        return view!!.findViewWithTag<View>(QUADRADO + tagNum.toString()) as Button
 
     }
 
@@ -159,7 +159,7 @@ class MainTela2 : AppCompatActivity() {
     }
 
     fun setColorBlack() {
-        for (i in 0..9) {
+        for (i in 1..9) {
             if (getQuadrado(i) != null) {
                 setColorQuadrados(i, R.color.black)
             }
