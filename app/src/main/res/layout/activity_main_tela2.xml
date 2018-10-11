@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado1"
+
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado2"
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado3"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado4"
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado5"
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado6"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado7"
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado8"
+
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:onClick="clickQuadrado"
+            android:enabled="false"
+            android:tag="quadrado9"
+
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Play"
+        android:onClick="newGame"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+        <RadioButton
+            android:id="@+id/rbO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
